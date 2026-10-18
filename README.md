@@ -4,19 +4,19 @@ Aplikasi web katalog menu interaktif untuk **Sore di Bali Cafe** yang dibangun m
 ---
 
 ### 1. Halaman Utama & Filter Menu (Query Parameter)
-![Halaman Utama Katalog](<img width="955" height="1015" alt="image" src="https://github.com/user-attachments/assets/7b03a53c-d4f4-4baf-969a-7d4c0777ab0f" />)
+Halaman Utama Katalog <img width="955" height="1015" alt="image" src="https://github.com/user-attachments/assets/7b03a53c-d4f4-4baf-969a-7d4c0777ab0f" />
 *Gambar 1: Tampilan katalog menu utama dengan implementasi filter kategori (`?kategori=kopi`) menggunakan `req.query`.*
 
 ### 2. Halaman Detail Menu (Route Parameter)
-![Halaman Detail Menu](<img width="950" height="1013" alt="image" src="https://github.com/user-attachments/assets/4ec98d4a-a5ea-4daa-a2c5-ceab0ac59bee" /> )
+Halaman Detail Menu <img width="950" height="1013" alt="image" src="https://github.com/user-attachments/assets/4ec98d4a-a5ea-4daa-a2c5-ceab0ac59bee" />
 *Gambar 2: Tampilan detail produk berbasis ID (`/menu/1`) menggunakan `req.params`.*
 
 ### 3. Struktur Modularitas EJS Partials
-![Struktur Partial EJS] (<img width="953" height="820" alt="image" src="https://github.com/user-attachments/assets/3483baf4-204b-4e47-ab74-797ba5504e4e" />)
+Struktur Partial EJS <img width="953" height="820" alt="image" src="https://github.com/user-attachments/assets/3483baf4-204b-4e47-ab74-797ba5504e4e" />
 *Gambar 3: Struktur direktori partials (`navbar.ejs` dan `footer.ejs`) serta sintaks `<%- include() %>` pada view utama.*
 
 ### 4. Pembuktian Render HTML di Browser (View Page Source)
-![View Page Source HTML](<img width="957" height="1011" alt="image" src="https://github.com/user-attachments/assets/ed6a99f7-6a85-418a-894d-1e59f84298c1" />)
+View Page Source HTML <img width="957" height="1011" alt="image" src="https://github.com/user-attachments/assets/ed6a99f7-6a85-418a-894d-1e59f84298c1" />
 *Gambar 4: Tampilan `View Page Source` di browser (`Ctrl + U`) yang membuktikan bahwa sintaks EJS telah di-render menjadi tag HTML murni di sisi server.*
 
 ---
